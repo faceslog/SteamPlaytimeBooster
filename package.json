@@ -2,9 +2,9 @@
   "name": "steamplaytimebooster",
   "version": "1.0.0",
   "description": "Steam Playtime booster",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "serve": "node index.js"
+    "serve": "node src/index.js"
   },
   "keywords": [
     "steam-booster"

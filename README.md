@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img  src="steam-logo.png" height="80" width="80" />
+  <img  src="img/steam-logo.png" height="80" width="80" />
   <br/>
    SteamPlaytime Booster
   <br/>

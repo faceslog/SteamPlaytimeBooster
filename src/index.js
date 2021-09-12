@@ -7,8 +7,8 @@ function inputDetails(inputData)
     inputData.username = ReadLineSync.question(Chalk.gray.bold('Username:'));
     inputData.password = ReadLineSync.question(Chalk.gray.bold('Password:'), { hideEchoBack: true });
 
-    console.log(Chalk.white.bold.bgMagentaBright(`Let's Add your games max (${Client.MaxGameForNormalAccount})`));
-    console.log(Chalk.white.bold.bgMagentaBright("Please use their code, more info at (https://github.com/faceslog/SteamPlaytimeBooster)"));
+    console.log(Chalk.white.bold.bgMagenta(`Let's Add your games max (${Client.MaxGameForNormalAccount})`));
+    console.log(Chalk.white.bold.bgMagenta("Please use their code, more info at (https://github.com/faceslog/SteamPlaytimeBooster)"));
     
     let n = "yes";
     
@@ -34,7 +34,7 @@ function inputDetails(inputData)
                 continue;
        }      
 
-       console.log(Chalk.white.bold.bgMagentaBright("All games code added: %s"), JSON.stringify(inputData.gameArray));
+       console.log(Chalk.white.bold.bgMagenta("All games code added: %s"), JSON.stringify(inputData.gameArray));
        
        if(inputData.gameArray.length < Client.MaxGameForNormalAccount)
        {
@@ -42,14 +42,14 @@ function inputDetails(inputData)
        }
        else
        {
-            console.log(Chalk.white.bold.bgMagentaBright(`Cannot add more games ! Maximum Reached (${Client.MaxGameForNormalAccount})!`));
+            console.log(Chalk.white.bold.bgMagenta(`Cannot add more games ! Maximum Reached (${Client.MaxGameForNormalAccount})!`));
        }
     }
 }
 
 function main() 
 {
-    console.log(Chalk.white.bold.bgMagentaBright("Steam Playtime Booster"));
+    console.log(Chalk.white.bold.bgMagenta("Steam Playtime Booster"));
 
     let inputData = { username: null, password: null, gameArray: []}
     inputDetails(inputData);

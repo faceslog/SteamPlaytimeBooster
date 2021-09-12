@@ -3,7 +3,7 @@
   <br/>
    SteamPlaytime Booster
   <br/>
-  Boost your Steam Playtime on any games !
+  Boost your Steam Playtime on Any games !
 </h1>
 
 ## How to use:

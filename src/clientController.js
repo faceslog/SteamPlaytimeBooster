@@ -65,13 +65,13 @@ class SteamClient extends SteamUser {
     {
         if(banCount <= 0) return;
 
-        console.log(Chalk.white.bold.bgRed("Removing Games Where You Are Vac Banned"));
+        console.log(Chalk.white.bold.bgRed("Removing VAC BAN Games"));
         // We keep only game where is not vac banned
         this.#gameArray = this.#gameArray.filter(game => !gameIds.includes(game))
 
         if(this.#gameArray.length <= 0)
         {
-            console.log(Chalk.white.bold.bgRed("No more games added ! Exiting ...")); 
+            console.log(Chalk.white.bold.bgRed("No more games left ! Exiting ...")); 
             this.shutdown();
         }
     }

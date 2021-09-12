@@ -11,9 +11,8 @@ function inputDetails(inputData)
     console.log(Chalk.white.bold.bgMagentaBright("Please use their code, more info at (https://github.com/faceslog/SteamPlaytimeBooster)"));
     
     let n = "yes";
-    console.log(inputData.gameArray.length);
-
-    while(n === "yes" && inputData.gameArray.length <= Client.MaxGameForNormalAccount)
+    
+    while((n === "yes" || n === 'y') && inputData.gameArray.length <= Client.MaxGameForNormalAccount)
     {
        let code = parseInt(ReadLineSync.question(Chalk.gray.bold('New Game Code: ')));
        
@@ -35,7 +34,7 @@ function inputDetails(inputData)
                 continue;
        }      
 
-       console.log("All games code added: %s", JSON.stringify(inputData.gameArray));
+       console.log(Chalk.white.bold.bgMagentaBright("All games code added: %s"), JSON.stringify(inputData.gameArray));
        
        if(inputData.gameArray.length < Client.MaxGameForNormalAccount)
        {

@@ -1,0 +1,20 @@
+{
+  "name": "steamplaytimebooster",
+  "version": "1.0.0",
+  "description": "Steam Playtime booster",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node index.js"
+  },
+  "keywords": [
+    "steam-booster"
+  ],
+  "author": "faceslog",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "fs": "0.0.1-security",
+    "readline-sync": "^1.4.10",
+    "steam-user": "^4.19.12"
+  }
+}

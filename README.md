@@ -20,6 +20,9 @@ The bot will start and you will be prompted everyhting you need to get started !
 
 ## FAQ
 
+**I have Steam Guard Do I need to get my Shared Secret or stuff like that ?**
+- No if you have a Steam Guard App you will be automatically prompted to input your steam guard code. :)
+
 **How Do I get the Games Code ?**
 - Browser to the steam market and go to game you want to idle on (for example: NARAKA). Look at the url: <https://store.steampowered.com/app/1203220/NARAKA_BLADEPOINT/>. Just take the numbers between app/ and /YOUR_GAME_NAME. Here the game code is: 1203220
 
@@ -28,3 +31,6 @@ The bot will start and you will be prompted everyhting you need to get started !
 
 **Could My Account Get Scam ?**
 - No, Only you can enter your **Username** and **Password** into the console, this details are secure and stay only on your computer.
+
+**I have an issue that is not listed what can I do ?**
+- You can contact me on discord: faceslog#6851 or open an issue here

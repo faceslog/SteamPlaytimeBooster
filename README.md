@@ -15,8 +15,10 @@
 npm install 
 npm run serve
 ```
-If you have issue or never ran a nodeJs script check out <https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-beginners-tutorial>
 The bot will start and you will be prompted everyhting you need to get started !
+
+If you have an issue or never ran a node Js script check out <https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-beginners-tutorial>
+
 
 ## FAQ
 

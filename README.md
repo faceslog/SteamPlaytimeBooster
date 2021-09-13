@@ -26,7 +26,7 @@ If you have an issue or never ran a node Js script check out <https://docs.micro
 - No if you have a Steam Guard App you will be automatically prompted to input your steam guard code. :)
 
 **How Do I get the Games Code ?**
-- Browser to the steam market and go to game you want to idle on (for example: NARAKA). Look at the url: <https://store.steampowered.com/app/1203220/NARAKA_BLADEPOINT/>. Just take the numbers between app/ and /YOUR_GAME_NAME. Here the game code is: 1203220
+- Browser to the steam market and go to the game you want to idle on (for example: NARAKA). Look at the url: <https://store.steampowered.com/app/1203220/NARAKA_BLADEPOINT/>. Just take the numbers between app/ and /YOUR_GAME_NAME. Here the game code is: 1203220
 
 **Can I get Ban from steam ?**
 - No, do not worry it only simulate the game and won't do any harm to your steam account or computer  !

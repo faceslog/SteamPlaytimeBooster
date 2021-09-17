@@ -4,7 +4,7 @@
   "description": "Steam Playtime booster",
   "main": "src/index.js",
   "scripts": {
-    "serve": "node src/index.js"
+    "serve": "node index.js"
   },
   "keywords": [
     "steam-booster"
@@ -13,6 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.2",
+    "fs": "0.0.1-security",
     "readline-sync": "^1.4.10",
     "steam-user": "^4.19.12"
   }

@@ -34,7 +34,6 @@ class SteamClient extends SteamUser {
         this.logOff();
         console.log(Chalk.white.bold.bgGreen("Logout : Success !"));
         console.log(Chalk.white.bold.bgGreen("Shutting Down ..."));
-        process.exit(0);
     }
     
     #login()

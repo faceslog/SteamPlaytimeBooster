@@ -8,7 +8,8 @@
 
 ## How to use:
 
-- Install Node JS: <https://nodejs.org/>
+- Download or clone this repo `git clone https://github.com/faceslog/SteamPlaytimeBooster.git`
+- **Install NodeJS LTS (16+) & npm**: <https://nodejs.org/>
 - Open a command prompt in the same directory as the project files (you can download them from Github or Clone this repo):
 - Type in the following commands:
 ```sh
